@@ -1,7 +1,5 @@
 import { CronParser } from "./src/cronParser";
-
 const args = process.argv;
-console.log(args.length);
 
 if(args.length === 3){
   try{
