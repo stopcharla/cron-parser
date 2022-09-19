@@ -2,22 +2,22 @@
 
 The typescript project processes the input command. Below are the steps to setup the project.
 
-###### pre-requisites:
+**pre-requisites**:
 node > v12
 
-###### Steps to run the program:
+**Steps to run the program**:
 ```
 git clone git@github.com:stopcharla/cron-parser.git
 cd cron-parse
 npm install
 npm run parser "<command goes here>"
 ```
-###### unit tests:
+**unit tests**:
 ```
 npm run test
 ```
 
-###### sample:
+**sample**:
 ```
 npm run parser "*/15 0 1,15 * 1-5 /usr/bin/find"
 ```
