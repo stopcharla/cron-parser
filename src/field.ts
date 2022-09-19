@@ -84,8 +84,8 @@ export class CronField {
     }
   }
 
-    getText(){
-      let valuesArray = Array.from(this.values.values());
-      return `${this.type.type} ${valuesArray.reduce((prev, cur) => prev + cur + ' ', '')} \n`
-    }
+  getText(){
+    let valuesArray = Array.from(this.values.values());
+    return `${this.type.type} ${valuesArray.reduce((prev, cur) => prev + cur + ' ', '')} \n`
   }
+}
